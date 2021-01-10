@@ -47,7 +47,7 @@ $subject = '=?UTF-8?B?' . base64_encode($subject) . '?=';
 
 @mail($to, $subject, $message, $headers);
 
-echo "Сообщение отправлено";
+echo '<p style="color: green">"Сообщение отправлено"</p>';
 
 // отправка автоответ
 //@mail($email, $subject_from, $automess, $headers);

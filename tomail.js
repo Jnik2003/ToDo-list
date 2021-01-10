@@ -1,18 +1,22 @@
 let out = document.querySelector('.out');
 let mailBtn = document.querySelector('.mail');
-
 let result = document.querySelector('.result');
+//--------для select
+//let maillist = document.querySelector('#maillist');
 
+
+//-----------
 
 
 mailBtn.addEventListener('click', funcMail);
 
 
-
+// собираем в массив все введенные значениия
 function funcMail(){
+	console.log(maillist.value);
 		let lists = document.querySelectorAll('.list');
 		let data = [];
-		data[0] = out.value;
+		data[0] = maillist.value;
 		for(let i = 0; i <lists.length; i++){
 			data[i+1] = lists[i].innerHTML;
 		}
