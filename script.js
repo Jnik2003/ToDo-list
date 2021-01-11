@@ -43,7 +43,7 @@ function funcAdd(){
 
 
 function funcDel(){
-	console.log(this.previousSibling.innerHTML);
+	//console.log(this.previousSibling.innerHTML);
 	this.parentNode.remove();
 	count--;
 	total.innerHTML = 'Всего: '+ count;

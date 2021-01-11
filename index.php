@@ -9,14 +9,16 @@
 		.task{
 			display: flex;
 		}
-		p{
+		.list{
 			width: 200px;
-			height: 30px;			
+			height: auto;	
+			min-height: 30px;		
 			background-color: lime;
 			margin:0;
+			word-break: break-all;
 		}
 		.del{
-			width: 30px;
+			width: 30px;			
 			height: 30px;
 			background-color: red;
 			
