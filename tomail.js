@@ -13,7 +13,7 @@ mailBtn.addEventListener('click', funcMail);
 
 // собираем в массив все введенные значениия
 function funcMail(){
-	console.log(maillist.value);
+	//console.log(maillist.value);
 		let lists = document.querySelectorAll('.list');
 		let data = [];
 		data[0] = maillist.value;

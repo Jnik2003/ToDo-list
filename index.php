@@ -12,14 +12,14 @@
 		.list{
 			width: 200px;
 			height: auto;	
-			min-height: 30px;		
+			min-height: 35px;		
 			background-color: lime;
 			margin:0;
 			word-break: break-all;
 		}
 		.del{
 			width: 30px;			
-			height: 30px;
+			height: 35px;
 			background-color: red;
 			
 		}
